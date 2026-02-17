@@ -8,10 +8,21 @@
         body {
             font-family: 'Georgia', serif;
             line-height: 1.6;
-            margin: 0 auto;
-            padding: 20px;
-            max-width: 800px;
+            margin: 0;
+            padding: 0;
             color: #333;
+            background-image: url('christ.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .content-wrapper {
+            background-color: rgba(255, 255, 255, 0.85);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
         header {
             text-align: center;
@@ -27,7 +38,7 @@
             margin-top: 30px;
         }
         .intro {
-            background-color: #f8f9fa;
+            background-color: rgba(248, 249, 250, 0.7);
             padding: 20px;
             border-radius: 5px;
             margin-bottom: 30px;
@@ -69,7 +80,7 @@
             padding-top: 20px;
         }
         .coming-soon {
-            background-color: #e9ecef;
+            background-color: rgba(233, 236, 239, 0.7);
             padding: 15px;
             border-radius: 5px;
             margin-top: 30px;
@@ -77,36 +88,39 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Diasozo Apologetics</h1>
-        <p class="scripture">Diasozo - To save thoroughly, bring safely through danger, or make completely whole</p>
-    </header>
-    
-    <main>
-        <section class="intro">
-            <h2>Welcome to Our Library</h2>
-            <p>This website is dedicated to providing clear, biblical explanations of Christian doctrine and addressing common theological questions and misconceptions.</p>
-            <div class="scripture">
-                "But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear." (1 Peter 3:15, KJV)
-            </div>
-            <p>Our goal is to provide resources that help believers understand and explain core Christian beliefs with biblical support and clear reasoning.</p>
-        </section>
+    <div class="content-wrapper">
+        <header>
+            <h1>Diasozo Apologetics</h1>
+            <p class="scripture">Diasozo - To save thoroughly, bring safely through danger, or make completely whole</p>
+        </header>
         
-        <section>
-            <h2>Articles</h2>
-            <div class="article-list">
-                <div class="article-item">
-                    <a href="james2.html" class="article-link">The Book of James and Salvation by Faith Alone</a>
-                    <p class="article-description">Reconciling James 2 with the doctrine of salvation by faith alone. This article explains how James and Paul are in perfect harmony, resolving apparent contradictions and demonstrating that works are the result of salvation, not its cause.</p>
+        <main>
+            <section class="intro">
+                <h2>Welcome to Our Library</h2>
+                <p>This website is dedicated to providing clear, biblical explanations of Christian doctrine and addressing common theological questions and misconceptions.</p>
+                <div class="scripture">
+                    "But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear." (1 Peter 3:15, KJV)
                 </div>
-                <div class ="article-item">
-                    <a href="pentachoron.html" class="article-link">Using Spatial Dimensions to Rationalize the Trinity</a>
-                    <p class="article-description">In this article we explore how the mathematical reality and validity of higher spacial dimensions can be used to conceptualize the trinity, while maintaining strict monotheism</p>
+                <p>Our goal is to provide resources that help believers understand and explain core Christian beliefs with biblical support and clear reasoning.</p>
+            </section>
+            
+            <section>
+                <h2>Articles</h2>
+                <div class="article-list">
+                    <div class="article-item">
+                        <a href="james2.html" class="article-link">The Book of James and Salvation by Faith Alone</a>
+                        <p class="article-description">Reconciling James 2 with the doctrine of salvation by faith alone. This article explains how James and Paul are in perfect harmony, resolving apparent contradictions and demonstrating that works are the result of salvation, not its cause.</p>
+                    </div>
+                    <div class="article-item">
+                        <a href="pentachoron.html" class="article-link">Using Spatial Dimensions to Rationalize the Trinity</a>
+                        <p class="article-description">In this article we explore how the mathematical reality and validity of higher spacial dimensions can be used to conceptualize the trinity, while maintaining strict monotheism</p>
+                    </div>
                 </div>
-        </section>
-    </main>
-    
-    <footer>
-    </footer>
+            </section>
+        </main>
+        
+        <footer>
+        </footer>
+    </div>
 </body>
 </html>
